@@ -1,0 +1,129 @@
+body{
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+ul .list a{
+    text-decoration: none;
+    color: #666;;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: arial,sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    background-color: #4285f4;
+    border: none;
+    color: white;
+}
+.fa-align-justify{
+ color: #666;
+padding: 15px 0 0 0;
+font-size: 20px;
+}
+.head-container{
+    display: flex;
+    justify-content: space-between;
+}
+.right-nav{
+    margin-right: 10px;
+    display: flex;
+}
+.left-nav ul{
+    margin-right: 10px;
+    display: flex;
+}
+.right-nav .list a{
+    margin: 0 20px 0 0px;
+}
+.right-nav .fa-align-justify{
+    margin: 0 20px 0 0px;
+}
+.right-nav ul{
+ display: flex;
+}
+.left-nav .list a{
+    padding: 0 10px 0 0;
+}
+.main-container{
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    margin: 8em 0 0 0;
+}
+.serach-box{
+    width: 45%;
+    height: 40px;
+    border-radius: 15px;
+}
+.serach-box{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(175, 172, 172);
+}
+.icon-container{
+   position: relative;
+   top: 27px;
+   font-size: 16px;
+   display: flex;
+   justify-content: space-around;
+}
+.fa-search{
+    margin-left: 6em;
+    color: #666;
+    cursor: pointer;
+}
+.fa-microphone{
+    margin-right: 6em;
+    color: #4285f4;
+    cursor: pointer;
+}
+.result-container{
+    margin-top: 20px;
+}
+button{
+    border: 0px;
+    height: 30px;
+    font-size: 12px;
+}
+.btn1{
+    margin-right: 5px;
+}
+.btn2{
+    margin-left: 5px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 12em;
+    margin: 0px;
+    background-color: rgb(226, 225, 225);
+    padding: 0px;
+}
+.footer-left ul{
+    display: flex;
+    padding-left: 0;
+
+}
+.list1 a{
+ text-decoration: none;
+ padding-left: 10px;
+ font-size: 14px;
+ color: #666;
+}
+.footer-right ul{
+    display: flex;
+
+}
+.list2 a{
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #666;
+   }
